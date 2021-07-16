@@ -33,11 +33,11 @@ function displayDefault() {
         <ul id="hours">
         <li>Sunday<span>10 - 2</span></li>
         <li>Monday<span>10 - 9</span></li>
-        <li>Sunday<span>10 - 9</span></li>
-        <li>Sunday<span>10 - 9</span></li>
-        <li>Sunday<span>10 - 9</span></li>
-        <li>Sunday<span>10 - 10</span></li>
-        <li>Sunday<span>10 - 10</span></li>
+        <li>Tuesday<span>10 - 9</span></li>
+        <li>Wednesday<span>10 - 9</span></li>
+        <li>Thursday<span>10 - 9</span></li>
+        <li>Friday<span>10 - 10</span></li>
+        <li>Saturday<span>10 - 10</span></li>
         </ul>
         </div>
         <div>
