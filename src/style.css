@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    letter-spacing: 0.4em;
+}
+
+nav ul {
+
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
