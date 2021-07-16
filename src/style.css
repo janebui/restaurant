@@ -1,25 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body {
     font-family: 'Merriweather', serif;
+    color: #3B3E3B;
+    margin: 0;
+    padding: 20px 0;
 }
 
-h1 {
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    padding-top: 1em;
     letter-spacing: 0.4em;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav ul {
-
-    padding: 0;
     display: flex;
     justify-content: center;
+    height: 60px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
 }
 
 li {
-    list-style-type: none;
+       list-style-type: none; 
 }
 
-#content {
-    display: flex;
-    justify-content: center;
+nav>ul>li {
+    padding: 0.7em;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: font-size 0.2s;
+    border-top: 1px solid #A3A9B0;
 }
+
+nav ul li:hover {
+    font-size: 1.2em;
+    color: #4C5873;
+    border-top: 2px solid #4C5873;
+}
+
+.active {
+    border-top: 2px solid #3B3E3B;
+}
+
+.foodpic, .menupic {
+    max-width: 700px;
+    border: 1px solid #A3A9B0;
+    padding: 10px;
+}
+
+.menupic {
+    width: 400px;
+    margin: 20px;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    padding: 5px 20px;
+}
+
+.list {
+    width: 400px;
+}
+
+.list ul li {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+#hours-location {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#hours {
+    width: 160px;
+}
+
+#hours li {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    margin-top: 30px;
+    width: 80%;
+    border-top: 1px solid #A3A9B0;
+    border-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3B3E3B;
+}
+
+a:hover {
+    color: #4C5873;
+}
+
+@media only screen and (max-width: 450px) {
+    h1 {
+      font-size: 1.4em;
+    }
+
+    .foodpic, .menupic {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .list {
+        width: 300px;
+    }
+  }
