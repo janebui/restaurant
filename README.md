@@ -3,4 +3,4 @@
 This is a project, from the Odin Project, which focuses on Webpack and npm.
 
 ## Live Demo
-Coming soon
+[Live Demo](janebui.github.io/restaurant/)
