@@ -93,7 +93,7 @@ p {
 
 .list ul li {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 8px;
 }
 
@@ -137,6 +137,7 @@ button {
     font-size: 1.2em;
     height: 40px;
     cursor: pointer;
+    font-family: 'Merriweather', serif;
 }
 
 hr {
