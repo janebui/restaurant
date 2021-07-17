@@ -3,13 +3,15 @@
 
 html {
     background-color: #EBEDEC;
+    height: 100%;
 }
 
 body {
     font-family: 'Merriweather', serif;
     color: #3B3E3B;
-    margin: 0;
+    margin: 0 auto;
     padding: 20px 0;
+    max-width: 700px;
 }
 
 header {
@@ -63,19 +65,19 @@ nav ul li:hover {
 }
 
 .foodpic, .menupic {
-    max-width: 700px;
     border: 1px solid #A3A9B0;
     padding: 10px;
+    max-width: 650px;
 }
 
 .menupic {
-    width: 400px;
+    max-width: 400px;
     margin: 20px;
 }
 
 main {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 700px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,6 +111,32 @@ p {
 #hours li {
     display: flex;
     justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+input, textarea {
+    border-radius: 3px;
+    border: 1px solid #A3A9B0;
+    padding: 5px;
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
+}
+
+label {
+    margin-top: 10px;
+}
+
+button {
+    color: #3B3E3B;
+    margin-top: 10px;
+    font-size: 1.2em;
+    height: 40px;
+    cursor: pointer;
 }
 
 hr {
