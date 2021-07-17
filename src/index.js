@@ -7,7 +7,7 @@ const sections = ['home', 'menu', 'about'];
 
 // create header with title
 const header = document.createElement('header');
-header.innerHTML = '<h1><a href="#">truffle + salt</a></h1>';
+header.innerHTML = '<h1><a href="index.html">truffle + salt</a></h1>';
 document.body.appendChild(header);
 
 // create navigation bar
