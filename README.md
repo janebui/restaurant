@@ -1,6 +1,6 @@
 # Restaurant Page ( truffle + salt )
 
-This is a project, from the Odin Project, which focuses on Webpack and npm.
+This my Restaurant Page project from the Odin Project which utilizes webpack.
 
 ## Live Demo
-Coming soon
+[Live Demo](https://janebui.github.io/restaurant/)
