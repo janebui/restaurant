@@ -1,5 +1,3 @@
-import Pic from './DSC00934.jpg';
-
 function displayAbout() {
     const main = document.querySelector('main');
     main.innerHTML = `
@@ -20,11 +18,6 @@ function displayAbout() {
     (555) 314-1592
     </p>
     `;
-
-    const Picture = new Image();
-    Picture.src = Pic;
-    Picture.setAttribute('class', 'menupic');
-    main.appendChild(Picture);
 };
 
 export default displayAbout;
