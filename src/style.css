@@ -10,7 +10,7 @@ body {
     font-family: 'Merriweather', serif;
     color: #3B3E3B;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 16px 0;
     max-width: 700px;
 }
 
@@ -161,7 +161,7 @@ a:hover {
       font-size: 1.4em;
     }
 
-    .foodpic, .menupic {
+    .foodpic, .menupic, .pic {
         width: 100vw;
         padding: 0;
     }
