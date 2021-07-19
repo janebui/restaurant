@@ -1,3 +1,5 @@
+import Pic from './decorative.png';
+
 function displayAbout() {
     const main = document.querySelector('main');
     main.innerHTML = `
@@ -18,6 +20,11 @@ function displayAbout() {
     (555) 314-1592
     </p>
     `;
+
+    const Picture = new Image();
+    Picture.src = Pic;
+    Picture.setAttribute('class', 'pic');
+    main.appendChild(Picture);
 };
 
 export default displayAbout;
