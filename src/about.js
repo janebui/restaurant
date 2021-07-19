@@ -21,9 +21,11 @@ function displayAbout() {
     </p>
     `;
 
+   // Image by Gordon Johnson from Pixabay 
     const Picture = new Image();
     Picture.src = Pic;
     Picture.setAttribute('class', 'pic');
+    Picture.setAttribute('alt', 'Decorative Divider by Gordon Johnson from Pixabay');
     main.appendChild(Picture);
 };
 
