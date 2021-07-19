@@ -161,9 +161,13 @@ a:hover {
       font-size: 1.4em;
     }
 
-    .foodpic, .menupic, .pic {
+    .foodpic, .menupic {
         width: 100vw;
         padding: 0;
+    }
+
+    .pic {
+        width: 90vw;
     }
 
     .list {
